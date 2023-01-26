@@ -101,6 +101,5 @@ const handleIncrease = () => {
   );
 
 }
-
-    
+   
 export default Videoplayer;

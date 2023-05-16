@@ -87,10 +87,10 @@ const handleIncrease = () => {
                               Play
                           </button>
               }
+              
               <button onClick={handleIncrease} className='btn btn-secondary m-1'>Vol++</button>
               <button onClick={handleReduce} className='btn btn-secondary m-1'>Vol--</button>
-              {/* <button className='btn btn-secondary m-1 bi bi-volume-mute-fill'></button> */}
-              
+
               {size ? (<button onClick={fullScrn} className='btn btn-secondary m-1 bi bi-fullscreen-exit'>
                         </button>) : 
                       (<button onClick={fullScrn} className='btn btn-secondary m-1 bi bi-fullscreen'>

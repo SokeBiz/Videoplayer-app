@@ -4,6 +4,10 @@
   min-height: 90vh;
 }
 
+#body{
+  background-color: none;
+}
+
 .timecontrols {
   display: flex;
   align-items: center;
